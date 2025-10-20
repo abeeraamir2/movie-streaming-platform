@@ -46,6 +46,7 @@ It provides features such as movie storage, user management, reviews, watch hist
 * *Search:* Full-text search with typo tolerance
 * *Hybrid Search System:* Hybrid search base on similarity,popularity and rating
 * *User Management:* Create user profiles
+* *Top Watched movies:* Fetch top 5 most-watched movies
 
 
 ## Setup Instructions
