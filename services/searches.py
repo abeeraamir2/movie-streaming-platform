@@ -4,16 +4,10 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 
-# -------------------------------
-# MongoDB Connection
-# -------------------------------
 client = MongoClient("mongodb://localhost:27017/")
 db = client["movie_streaming"]
 movies_col = db["movies"]
 
-# -------------------------------
-# Load movie embeddings
-# -------------------------------
 movies = []
 embeddings_list = []
 ratings = []
@@ -48,9 +42,7 @@ def normalize(arr):
 normalized_ratings = normalize(ratings)
 normalized_popularity = normalize(popularities)
 
-# -------------------------------
-# Semantic Search
-# -------------------------------
+
 def semantic_search_title(user_query: str, top_n: int = 10):
     query_embedding = embedder.encode([user_query])
     similarities = cosine_similarity(query_embedding, embeddings)[0]
@@ -62,10 +54,8 @@ def semantic_search_title(user_query: str, top_n: int = 10):
         results.append(movie)
     return results
 
-# -------------------------------
-# Hybrid Search
-# -------------------------------
-def hybrid_search_movies(query: str, top_n=10, w_sim=0.6, w_rating=0.25, w_pop=0.15):
+
+def hybrid_search_movies(query: str, top_n=10, w_sim=0.5, w_rating=0.3, w_pop=0.2):
     query_embedding = embedder.encode([query])
     similarities = cosine_similarity(query_embedding, embeddings)[0]
     normalized_sim = normalize(similarities)
@@ -79,9 +69,7 @@ def hybrid_search_movies(query: str, top_n=10, w_sim=0.6, w_rating=0.25, w_pop=0
         top_movies.append(movie)
     return top_movies
 
-# -------------------------------
-# Fuzzy Search
-# -------------------------------
+
 def fuzzy_search_movies(title: str = None, director: str = None, cast: str = None, limit: int = 5):
     movies_db = list(movies_col.find({}))
     results = []
@@ -90,15 +78,12 @@ def fuzzy_search_movies(title: str = None, director: str = None, cast: str = Non
         score = 0
 
 
-        # Fuzzy match title
         if title:
             score += fuzz.WRatio(title, movie.get("title", ""))
 
-        # Fuzzy match director
         if director:
             score += fuzz.WRatio(director, movie.get("director", ""))
 
-        # Fuzzy match cast
         if cast:
             cast_list = movie.get("cast", [])
             if cast_list:
@@ -110,11 +95,9 @@ def fuzzy_search_movies(title: str = None, director: str = None, cast: str = Non
                 score += max_cast_score
 
         if score > 0:
-            # Convert ObjectId to string for JSON
             movie["_id"] = str(movie["_id"])
             results.append((movie, score))
 
-    # Sort by score descending
     results.sort(key=lambda x: x[1], reverse=True)
     return [r[0] for r in results[:limit]]
 
