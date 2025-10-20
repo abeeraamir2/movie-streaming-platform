@@ -48,18 +48,11 @@ def add_review(
                 "updated_at": datetime.utcnow()
             }}
         )
-
-    users_collection.update_one(
-        {"_id": user_obj},
-        {"$addToSet": {"reviews": review_entry}}  
-    )
-
     
     all_reviews = list(reviews_collection.find({"movie_id": movie_obj}, {"rating": 1}))
     total_reviews = len(all_reviews)
     total_rating = sum(r["rating"] for r in all_reviews)
     avg_rating = round(total_rating / total_reviews, 2) if total_reviews > 0 else 0.0
-
     
     movies_collection.update_one(
         {"_id": movie_obj},
