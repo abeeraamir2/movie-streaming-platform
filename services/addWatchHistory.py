@@ -44,11 +44,6 @@ def add_watch_history(
         {"$inc": {"popularity": increment}}
     )
 
-    users_collection.update_one(
-        {"_id": ObjectId(user_id)},
-        {"$push": {"watch_history": watch_entry}}
-    )
-
     return {
         "message": "Watch history added & movie popularity updated",
         "popularity_increment": increment

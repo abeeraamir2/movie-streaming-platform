@@ -15,7 +15,9 @@ popularities = []
 
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
+#Fetches documents (movies) from movies_col.
 for doc in movies_col.find({}, {"title": 1, "embedding": 1, "rating": 1, "popularity": 1, "_id": 0}):
+    #if the document actually has an embedding field (so we skip movies that don’t yet have embeddings)
     if "embedding" in doc and doc["embedding"] is not None:
         movies.append({
             "title": doc["title"],
@@ -45,8 +47,8 @@ normalized_popularity = normalize(popularities)
 
 def semantic_search_title(user_query: str, top_n: int = 10):
     query_embedding = embedder.encode([user_query])
-    similarities = cosine_similarity(query_embedding, embeddings)[0]
-    top_indices = np.argsort(similarities)[::-1][:top_n]
+    similarities = cosine_similarity(query_embedding, embeddings)[0] #[0] extracts 1d array
+    top_indices = np.argsort(similarities)[::-1][:top_n]#arg sort returns indices that sort the array(-1 high to low)
     results = []
     for idx in top_indices:
         movie = movies[idx].copy()
@@ -57,7 +59,7 @@ def semantic_search_title(user_query: str, top_n: int = 10):
 
 def hybrid_search_movies(query: str, top_n=10, w_sim=0.5, w_rating=0.3, w_pop=0.2):
     query_embedding = embedder.encode([query])
-    similarities = cosine_similarity(query_embedding, embeddings)[0]
+    similarities = cosine_similarity(query_embedding, embeddings)[0] #extracts 1d arr or 1 row
     normalized_sim = normalize(similarities)
     final_scores = w_sim * normalized_sim + w_rating * normalized_ratings + w_pop * normalized_popularity
     top_indices = np.argsort(final_scores)[::-1][:top_n]
@@ -76,7 +78,6 @@ def fuzzy_search_movies(title: str = None, director: str = None, cast: str = Non
 
     for movie in movies_db:
         score = 0
-
 
         if title:
             score += fuzz.WRatio(title, movie.get("title", ""))
@@ -98,6 +99,6 @@ def fuzzy_search_movies(title: str = None, director: str = None, cast: str = Non
             movie["_id"] = str(movie["_id"])
             results.append((movie, score))
 
-    results.sort(key=lambda x: x[1], reverse=True)
-    return [r[0] for r in results[:limit]]
+    results.sort(key=lambda x: x[1], reverse=True)#Sorts the results by the score in descending order
+    return [r[0] for r in results[:limit]] #Returns only the movie objects (ignores the score).
 
