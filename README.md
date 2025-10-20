@@ -40,11 +40,12 @@ It provides features such as movie storage, user management, reviews, watch hist
 
 
 ## Features
-* *User Management:* Create and manage user profiles
 * *Movie Storage:* Add, update, and delete movie records
 * *Reviews:* Submit and fetch user reviews for each movie
 * *Watch History:* Track movies watched by users
-* *Hybrid Search System:* Combines keyword, fuzzy, and popularity-based ranking
+* *Search:*Full-text search with typo tolerance
+* *Hybrid Search System:* Hybrid search base on similarity,popularity and rating
+* *User Management:* Create user profiles
 
 
 ## Setup Instructions
@@ -71,6 +72,3 @@ It provides features such as movie storage, user management, reviews, watch hist
    
 
 
----
-
-Would you like me to make this version downloadable as a README.md file for your submission?
