@@ -31,10 +31,10 @@ It provides features such as movie storage, user management, reviews, watch hist
 * *One-to-Many*
   * One movie → many reviews
   * One user → many watch history entries
-  * 
+   
 * *Referenced Fields*
   * user_id and movie_id are used as references in both reviews and watch_history
-  * 
+    
 * *Nested Documents*
   * Movie genres and cast are stored as nested arrays within the movies collection
 
@@ -43,7 +43,7 @@ It provides features such as movie storage, user management, reviews, watch hist
 * *Movie Storage:* Add, update, and delete movie records
 * *Reviews:* Submit and fetch user reviews for each movie
 * *Watch History:* Track movies watched by users
-* *Search:*Full-text search with typo tolerance
+* *Search:* Full-text search with typo tolerance
 * *Hybrid Search System:* Hybrid search base on similarity,popularity and rating
 * *User Management:* Create user profiles
 
