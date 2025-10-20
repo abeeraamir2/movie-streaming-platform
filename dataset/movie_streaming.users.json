@@ -1,0 +1,1029 @@
+[{
+  "_id": {
+    "$oid": "68f37b5d893bfbeee370b799"
+  },
+  "name": "Abeera Amir",
+  "email": "abeeraamir@yahoo.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:34:53.103Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "name": "Hajirah Sheikh",
+  "email": "hajirahsheikh@gmail.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:35:14.652Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "name": "Fatima Noor",
+  "email": "fatimanoor@yahoo.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:35:44.588Z"
+  },
+  "watch_history": [
+    {
+      "user_id": {
+        "$oid": "68f37b90893bfbeee370b79b"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2447"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:33:28.986Z"
+      },
+      "duration": 160,
+      "_id": {
+        "$oid": "68f3b348a4415276bfa00e23"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user_id": {
+        "$oid": "68f37b90893bfbeee370b79b"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2451"
+      },
+      "rating": 4.5,
+      "text_review": "Amazing concept, a bit confusing at times.",
+      "created_at": {
+        "$date": "2025-10-18T15:36:44.168Z"
+      },
+      "_id": {
+        "$oid": "68f3b40ca4415276bfa00e24"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37b90893bfbeee370b79b"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a244f"
+      },
+      "rating": 4.4,
+      "text_review": "Some plot twists felt predictable, but overall enjoyable.",
+      "created_at": {
+        "$date": "2025-10-18T15:38:08.097Z"
+      },
+      "_id": {
+        "$oid": "68f3b460a4415276bfa00e25"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37b90893bfbeee370b79b"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2455"
+      },
+      "rating": 4.5,
+      "text_review": "Good performances, but the pacing felt a bit uneven.",
+      "created_at": {
+        "$date": "2025-10-18T15:39:41.181Z"
+      },
+      "_id": {
+        "$oid": "68f3b4bda4415276bfa00e26"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37b90893bfbeee370b79b"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2457"
+      },
+      "rating": 4,
+      "text_review": "Not the scariest horror, but the plot was intriguing.",
+      "created_at": {
+        "$date": "2025-10-18T15:41:27.819Z"
+      },
+      "_id": {
+        "$oid": "68f3b527a4415276bfa00e27"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68f37ba7893bfbeee370b79c"
+  },
+  "name": "Laiba Khan",
+  "email": "laibakhan@gmail.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:36:07.308Z"
+  },
+  "watch_history": [
+    {
+      "user_id": {
+        "$oid": "68f37ba7893bfbeee370b79c"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a244f"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:26:32.272Z"
+      },
+      "duration": 140,
+      "_id": {
+        "$oid": "68f3b1a8a4415276bfa00e1d"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37ba7893bfbeee370b79c"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2451"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:27:25.904Z"
+      },
+      "duration": 120,
+      "_id": {
+        "$oid": "68f3b1dda4415276bfa00e1e"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37ba7893bfbeee370b79c"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2455"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:27:50.278Z"
+      },
+      "duration": 90,
+      "_id": {
+        "$oid": "68f3b1f6a4415276bfa00e1f"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37ba7893bfbeee370b79c"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2457"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:28:23.307Z"
+      },
+      "duration": 110,
+      "_id": {
+        "$oid": "68f3b217a4415276bfa00e20"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37ba7893bfbeee370b79c"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2447"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:29:40.811Z"
+      },
+      "duration": 150,
+      "_id": {
+        "$oid": "68f3b264a4415276bfa00e21"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user_id": {
+        "$oid": "68f37ba7893bfbeee370b79c"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2447"
+      },
+      "rating": 4.8,
+      "text_review": "Mind-bending and visually stunning!",
+      "created_at": {
+        "$date": "2025-10-18T15:31:05.424Z"
+      },
+      "_id": {
+        "$oid": "68f3b2b9a4415276bfa00e22"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "name": "Mahrukh Musharaf",
+  "email": "mahamusharaf@yahoo.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-18T11:36:41.638Z"
+  },
+  "watch_history": [
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2462"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:48:12.166Z"
+      },
+      "duration": 140,
+      "_id": {
+        "$oid": "68f3b6bca4415276bfa00e28"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2467"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:48:29.867Z"
+      },
+      "duration": 90,
+      "_id": {
+        "$oid": "68f3b6cda4415276bfa00e29"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a246c"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:48:51.748Z"
+      },
+      "duration": 160,
+      "_id": {
+        "$oid": "68f3b6e3a4415276bfa00e2a"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a246e"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:49:16.561Z"
+      },
+      "duration": 140,
+      "_id": {
+        "$oid": "68f3b6fca4415276bfa00e2b"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2447"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:50:40.674Z"
+      },
+      "duration": 160,
+      "_id": {
+        "$oid": "68f3b750a4415276bfa00e2c"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a244a"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T15:51:17.566Z"
+      },
+      "duration": 150,
+      "_id": {
+        "$oid": "68f3b775a4415276bfa00e2d"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a244a"
+      },
+      "rating": 4.8,
+      "text_review": "Atmosphere and cinematography were top-notch.",
+      "created_at": {
+        "$date": "2025-10-18T15:52:38.282Z"
+      },
+      "_id": {
+        "$oid": "68f3b7c6a4415276bfa00e2e"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2462"
+      },
+      "rating": 4.8,
+      "text_review": "Excellent performances and a gripping story..",
+      "created_at": {
+        "$date": "2025-10-18T15:54:14.618Z"
+      },
+      "_id": {
+        "$oid": "68f3b826a4415276bfa00e2f"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2467"
+      },
+      "rating": 3,
+      "text_review": "Boring movie",
+      "created_at": {
+        "$date": "2025-10-18T15:55:30.055Z"
+      },
+      "_id": {
+        "$oid": "68f3b872a4415276bfa00e30"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a246c"
+      },
+      "rating": 4,
+      "text_review": "An average movie it was",
+      "created_at": {
+        "$date": "2025-10-18T15:56:22.105Z"
+      },
+      "_id": {
+        "$oid": "68f3b8a6a4415276bfa00e31"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a246e"
+      },
+      "rating": 4.6,
+      "text_review": "Chilling and intense! Kept me on edge the whole time.",
+      "created_at": {
+        "$date": "2025-10-18T15:57:02.855Z"
+      },
+      "_id": {
+        "$oid": "68f3b8cea4415276bfa00e32"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bc9893bfbeee370b79d"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2447"
+      },
+      "rating": 4.8,
+      "text_review": "Excellent performances and a gripping story.",
+      "created_at": {
+        "$date": "2025-10-18T16:11:16.826Z"
+      },
+      "_id": {
+        "$oid": "68f3bc24a4415276bfa00e39"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "name": "Minal Kashif",
+  "email": "minalkashif@gmail.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-18T11:37:08.665Z"
+  },
+  "watch_history": [
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a246f"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:01:34.652Z"
+      },
+      "duration": 120,
+      "_id": {
+        "$oid": "68f3b9dea4415276bfa00e33"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2472"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:02:04.024Z"
+      },
+      "duration": 110,
+      "_id": {
+        "$oid": "68f3b9fca4415276bfa00e34"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2475"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:02:20.052Z"
+      },
+      "duration": 130,
+      "_id": {
+        "$oid": "68f3ba0ca4415276bfa00e35"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2462"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:04:39.134Z"
+      },
+      "duration": 130,
+      "_id": {
+        "$oid": "68f3ba97a4415276bfa00e36"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2444"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:05:34.047Z"
+      },
+      "duration": 140,
+      "_id": {
+        "$oid": "68f3bacea4415276bfa00e37"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2444"
+      },
+      "rating": 4.8,
+      "text_review": "Excellent performances and a gripping story.",
+      "created_at": {
+        "$date": "2025-10-18T16:06:17.475Z"
+      },
+      "_id": {
+        "$oid": "68f3baf9a4415276bfa00e38"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2462"
+      },
+      "rating": 4.9,
+      "text_review": "Chilling and intense! Kept me on edge the whole time.",
+      "created_at": {
+        "$date": "2025-10-18T16:15:04.239Z"
+      },
+      "_id": {
+        "$oid": "68f3bd08a4415276bfa00e3b"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a246f"
+      },
+      "rating": 4.5,
+      "text_review": "Well-directed and visually appealing.",
+      "created_at": {
+        "$date": "2025-10-18T16:16:45.930Z"
+      },
+      "_id": {
+        "$oid": "68f3bd6da4415276bfa00e3c"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2472"
+      },
+      "rating": 4.4,
+      "text_review": "Good performances, but the pacing felt a bit uneven.",
+      "created_at": {
+        "$date": "2025-10-18T16:17:48.756Z"
+      },
+      "_id": {
+        "$oid": "68f3bdaca4415276bfa00e3d"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37be4893bfbeee370b79e"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2475"
+      },
+      "rating": 4.3,
+      "text_review": "Some parts were predictable, but still enjoyable overall",
+      "created_at": {
+        "$date": "2025-10-18T16:18:53.440Z"
+      },
+      "_id": {
+        "$oid": "68f3bdeda4415276bfa00e3e"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68f37bfd893bfbeee370b79f"
+  },
+  "name": "Saira Saeed",
+  "email": "sairasaeed@gmail.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:37:33.589Z"
+  },
+  "watch_history": [
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2477"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:21:08.935Z"
+      },
+      "duration": 120,
+      "_id": {
+        "$oid": "68f3be74a4415276bfa00e3f"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a247f"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:22:09.090Z"
+      },
+      "duration": 120,
+      "_id": {
+        "$oid": "68f3beb1a4415276bfa00e40"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2477"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:32:59.375Z"
+      },
+      "duration": 140,
+      "_id": {
+        "$oid": "68f3c13ba4415276bfa00e41"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2477"
+      },
+      "watched_at": {
+        "$date": "2025-10-18T16:38:04.581Z"
+      },
+      "duration": 140,
+      "_id": {
+        "$oid": "68f3c26ca4415276bfa00e42"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2477"
+      },
+      "rating": 2.5,
+      "text_review": "Very boring,wasted my time",
+      "created_at": {
+        "$date": "2025-10-18T16:40:07.358Z"
+      },
+      "_id": {
+        "$oid": "68f3c2e7a4415276bfa00e43"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a247f"
+      },
+      "rating": 4.2,
+      "text_review": "Average movie",
+      "created_at": {
+        "$date": "2025-10-18T16:41:41.441Z"
+      },
+      "_id": {
+        "$oid": "68f3c345a4415276bfa00e44"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a2467"
+      },
+      "rating": 4.5,
+      "text_review": "It was just okay",
+      "created_at": {
+        "$date": "2025-10-20T16:32:20.363Z"
+      },
+      "_id": {
+        "$oid": "68f664142d446de03c7f0af2"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a247e"
+      },
+      "rating": 4.5,
+      "text_review": "It was just okay",
+      "created_at": {
+        "$date": "2025-10-20T16:32:45.334Z"
+      },
+      "_id": {
+        "$oid": "68f6642d2d446de03c7f0af3"
+      }
+    },
+    {
+      "user_id": {
+        "$oid": "68f37bfd893bfbeee370b79f"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a247e"
+      },
+      "rating": 4.5,
+      "text_review": "It was just okay",
+      "created_at": {
+        "$date": "2025-10-20T16:41:04.760Z"
+      },
+      "_id": {
+        "$oid": "68f66620c809d617b775879f"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68f37c2c893bfbeee370b7a0"
+  },
+  "name": "Amna Khan",
+  "email": "amnakhan@yahoo.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:38:20.050Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37c4d893bfbeee370b7a1"
+  },
+  "name": "Faria Zia",
+  "email": "fariazia@gmail.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:38:53.721Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37c64893bfbeee370b7a2"
+  },
+  "name": "Ayemish Mushtaq",
+  "email": "ayemish@yahoo.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-18T11:39:16.215Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37c93893bfbeee370b7a3"
+  },
+  "name": "Minahil Mustafa",
+  "email": "minahil123@yahoo.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-18T11:40:03.637Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37caf893bfbeee370b7a4"
+  },
+  "name": "Laiba Afzaal",
+  "email": "laibaafzaal@gmail.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:40:31.888Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37cc8893bfbeee370b7a5"
+  },
+  "name": "Wajiha Amir",
+  "email": "wajihaamir@gmail.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:40:56.113Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37cdb893bfbeee370b7a6"
+  },
+  "name": "Fatika Amir",
+  "email": "fatikaamir@gmail.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:41:15.196Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37d20893bfbeee370b7a7"
+  },
+  "name": "Maham Shahid",
+  "email": "mahamshahid@gmail.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-18T11:42:24.255Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37d37893bfbeee370b7a8"
+  },
+  "name": "Hiba Noor",
+  "email": "hibanoor@gmail.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:42:47.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37d63893bfbeee370b7a9"
+  },
+  "name": "Nimra Tariq",
+  "email": "nimratariq@yahoo.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:43:31.421Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37d77893bfbeee370b7aa"
+  },
+  "name": "Zoya Imran",
+  "email": "zoyaimran@yahoo.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:43:51.700Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37d92893bfbeee370b7ab"
+  },
+  "name": "Noor Fatima",
+  "email": "noorfatima@yahoo.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:44:18.854Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37ddb893bfbeee370b7ac"
+  },
+  "name": "Azka Mudassir",
+  "email": "azkamudassir@yahoo.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-18T11:45:31.328Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37df8893bfbeee370b7ad"
+  },
+  "name": "Rafia Taimur",
+  "email": "rafiataimur@yahoo.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:46:00.971Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37e1b893bfbeee370b7ae"
+  },
+  "name": "Maheen Saeed",
+  "email": "maheensaeed@yahoo.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:46:35.465Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37e33893bfbeee370b7af"
+  },
+  "name": "Mahnoor Ali",
+  "email": "mahnooor23@yahoo.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:46:59.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37e51893bfbeee370b7b0"
+  },
+  "name": "Mawra Iqbal",
+  "email": "mawraaiqbal@yahoo.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-18T11:47:29.359Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37e6f893bfbeee370b7b1"
+  },
+  "name": "Mehreen Nadeem",
+  "email": "mmehreenn@yahoo.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:47:59.900Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37e85893bfbeee370b7b2"
+  },
+  "name": "Laiba Mir",
+  "email": "laibamir@yahoo.com",
+  "subscription_type": "Premium",
+  "created_at": {
+    "$date": "2025-10-18T11:48:21.228Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37e9c893bfbeee370b7b3"
+  },
+  "name": "Kinza Ali",
+  "email": "kinzaali@gmail.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:48:44.821Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37ec2893bfbeee370b7b4"
+  },
+  "name": "M. Farrukh",
+  "email": "mfarrukh235@gmail.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:49:22.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37ed6893bfbeee370b7b5"
+  },
+  "name": "Imran Khan",
+  "email": "imrankhan@gmail.com",
+  "subscription_type": "Standard",
+  "created_at": {
+    "$date": "2025-10-18T11:49:42.091Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f37eed893bfbeee370b7b6"
+  },
+  "name": "Usman Ali",
+  "email": "usmanali@gmail.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-18T11:50:05.118Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f661e095795ef286b5b4ba"
+  },
+  "name": "Ali",
+  "email": "ali@gmail.com",
+  "subscription_type": "Basic",
+  "created_at": {
+    "$date": "2025-10-20T16:22:56.259Z"
+  },
+  "watch_history": [
+    {
+      "user_id": {
+        "$oid": "68f661e095795ef286b5b4ba"
+      },
+      "movie_id": {
+        "$oid": "68f25b136fb4862d984a247f"
+      },
+      "watched_at": {
+        "$date": "2025-10-20T16:28:20.487Z"
+      },
+      "duration": 140,
+      "_id": {
+        "$oid": "68f663242d446de03c7f0af0"
+      }
+    }
+  ]
+}]

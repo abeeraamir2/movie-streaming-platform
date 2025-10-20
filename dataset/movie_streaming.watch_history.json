@@ -1,0 +1,435 @@
+[{
+  "_id": {
+    "$oid": "68f38318e003155fc9676b6d"
+  },
+  "user_id": {
+    "$oid": "68f37b5d893bfbeee370b799"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2440"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:07:52.769Z"
+  },
+  "duration": 140
+},
+{
+  "_id": {
+    "$oid": "68f38334e003155fc9676b6e"
+  },
+  "user_id": {
+    "$oid": "68f37b5d893bfbeee370b799"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2443"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:08:20.596Z"
+  },
+  "duration": 140
+},
+{
+  "_id": {
+    "$oid": "68f38357e003155fc9676b6f"
+  },
+  "user_id": {
+    "$oid": "68f37b5d893bfbeee370b799"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2444"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:08:55.736Z"
+  },
+  "duration": 120
+},
+{
+  "_id": {
+    "$oid": "68f38561e003155fc9676b77"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2443"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:17:37.538Z"
+  },
+  "duration": 120
+},
+{
+  "_id": {
+    "$oid": "68f38608e003155fc9676b79"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2445"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:20:24.646Z"
+  },
+  "duration": 120
+},
+{
+  "_id": {
+    "$oid": "68f38625e003155fc9676b7a"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2447"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:20:53.845Z"
+  },
+  "duration": 160
+},
+{
+  "_id": {
+    "$oid": "68f3863fe003155fc9676b7b"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244a"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:21:19.242Z"
+  },
+  "duration": 180
+},
+{
+  "_id": {
+    "$oid": "68f38698e003155fc9676b7c"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244b"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:22:48.531Z"
+  },
+  "duration": 90
+},
+{
+  "_id": {
+    "$oid": "68f38836e003155fc9676b81"
+  },
+  "user_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244a"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T12:29:42.446Z"
+  },
+  "duration": 160
+},
+{
+  "_id": {
+    "$oid": "68f3b1a8a4415276bfa00e1d"
+  },
+  "user_id": {
+    "$oid": "68f37ba7893bfbeee370b79c"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244f"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:26:32.272Z"
+  },
+  "duration": 140
+},
+{
+  "_id": {
+    "$oid": "68f3b1dda4415276bfa00e1e"
+  },
+  "user_id": {
+    "$oid": "68f37ba7893bfbeee370b79c"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2451"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:27:25.904Z"
+  },
+  "duration": 120
+},
+{
+  "_id": {
+    "$oid": "68f3b1f6a4415276bfa00e1f"
+  },
+  "user_id": {
+    "$oid": "68f37ba7893bfbeee370b79c"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2455"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:27:50.278Z"
+  },
+  "duration": 90
+},
+{
+  "_id": {
+    "$oid": "68f3b217a4415276bfa00e20"
+  },
+  "user_id": {
+    "$oid": "68f37ba7893bfbeee370b79c"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2457"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:28:23.307Z"
+  },
+  "duration": 110
+},
+{
+  "_id": {
+    "$oid": "68f3b264a4415276bfa00e21"
+  },
+  "user_id": {
+    "$oid": "68f37ba7893bfbeee370b79c"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2447"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:29:40.811Z"
+  },
+  "duration": 150
+},
+{
+  "_id": {
+    "$oid": "68f3b348a4415276bfa00e23"
+  },
+  "user_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2447"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:33:28.986Z"
+  },
+  "duration": 160
+},
+{
+  "_id": {
+    "$oid": "68f3b6bca4415276bfa00e28"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2462"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:48:12.166Z"
+  },
+  "duration": 140
+},
+{
+  "_id": {
+    "$oid": "68f3b6cda4415276bfa00e29"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2467"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:48:29.867Z"
+  },
+  "duration": 90
+},
+{
+  "_id": {
+    "$oid": "68f3b6e3a4415276bfa00e2a"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a246c"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:48:51.748Z"
+  },
+  "duration": 160
+},
+{
+  "_id": {
+    "$oid": "68f3b6fca4415276bfa00e2b"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a246e"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:49:16.561Z"
+  },
+  "duration": 140
+},
+{
+  "_id": {
+    "$oid": "68f3b750a4415276bfa00e2c"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2447"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:50:40.674Z"
+  },
+  "duration": 160
+},
+{
+  "_id": {
+    "$oid": "68f3b775a4415276bfa00e2d"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244a"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T15:51:17.566Z"
+  },
+  "duration": 150
+},
+{
+  "_id": {
+    "$oid": "68f3b9dea4415276bfa00e33"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a246f"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T16:01:34.652Z"
+  },
+  "duration": 120
+},
+{
+  "_id": {
+    "$oid": "68f3b9fca4415276bfa00e34"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2472"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T16:02:04.024Z"
+  },
+  "duration": 110
+},
+{
+  "_id": {
+    "$oid": "68f3ba0ca4415276bfa00e35"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2475"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T16:02:20.052Z"
+  },
+  "duration": 130
+},
+{
+  "_id": {
+    "$oid": "68f3ba97a4415276bfa00e36"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2462"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T16:04:39.134Z"
+  },
+  "duration": 130
+},
+{
+  "_id": {
+    "$oid": "68f3bacea4415276bfa00e37"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2444"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T16:05:34.047Z"
+  },
+  "duration": 140
+},
+{
+  "_id": {
+    "$oid": "68f3beb1a4415276bfa00e40"
+  },
+  "user_id": {
+    "$oid": "68f37bfd893bfbeee370b79f"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a247f"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T16:22:09.090Z"
+  },
+  "duration": 120
+},
+{
+  "_id": {
+    "$oid": "68f3c26ca4415276bfa00e42"
+  },
+  "user_id": {
+    "$oid": "68f37bfd893bfbeee370b79f"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2477"
+  },
+  "watched_at": {
+    "$date": "2025-10-18T16:38:04.581Z"
+  },
+  "duration": 140
+},
+{
+  "_id": {
+    "$oid": "68f663242d446de03c7f0af0"
+  },
+  "user_id": {
+    "$oid": "68f661e095795ef286b5b4ba"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a247f"
+  },
+  "watched_at": {
+    "$date": "2025-10-20T16:28:20.487Z"
+  },
+  "duration": 140
+}]

@@ -1,0 +1,483 @@
+[{
+  "_id": {
+    "$oid": "68f3844de003155fc9676b73"
+  },
+  "user_id": {
+    "$oid": "68f37b5d893bfbeee370b799"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2440"
+  },
+  "rating": 4.7,
+  "text_review": "It was a good movie",
+  "created_at": {
+    "$date": "2025-10-18T12:13:01.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f38488e003155fc9676b74"
+  },
+  "user_id": {
+    "$oid": "68f37b5d893bfbeee370b799"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2443"
+  },
+  "rating": 4.5,
+  "text_review": "Such an average movie it was!",
+  "created_at": {
+    "$date": "2025-10-18T12:14:00.143Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f384bce003155fc9676b75"
+  },
+  "user_id": {
+    "$oid": "68f37b5d893bfbeee370b799"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2444"
+  },
+  "rating": 4.9,
+  "text_review": "I really enjoyed watching this movie",
+  "created_at": {
+    "$date": "2025-10-18T12:14:52.635Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f385ace003155fc9676b78"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2443"
+  },
+  "rating": 4.6,
+  "text_review": "The ending of this movie could've been better",
+  "created_at": {
+    "$date": "2025-10-18T12:18:52.474Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f386d6e003155fc9676b7d"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244b"
+  },
+  "rating": 3.9,
+  "text_review": "Very boring movie",
+  "created_at": {
+    "$date": "2025-10-18T12:23:50.354Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f38733e003155fc9676b7e"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2445"
+  },
+  "rating": 4.6,
+  "text_review": "It was much better than my expectations",
+  "created_at": {
+    "$date": "2025-10-18T12:25:23.974Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f38780e003155fc9676b7f"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2447"
+  },
+  "rating": 4.9,
+  "text_review": "Loved this movie",
+  "created_at": {
+    "$date": "2025-10-18T12:26:40.035Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f387a9e003155fc9676b80"
+  },
+  "user_id": {
+    "$oid": "68f37b72893bfbeee370b79a"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244a"
+  },
+  "rating": 3.5,
+  "text_review": "Didn't like this movie at all",
+  "created_at": {
+    "$date": "2025-10-18T12:27:21.120Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f38862e003155fc9676b82"
+  },
+  "user_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244a"
+  },
+  "rating": 5,
+  "text_review": "It was an amazing movie",
+  "created_at": {
+    "$date": "2025-10-18T12:30:26.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f388cde003155fc9676b83"
+  },
+  "user_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2447"
+  },
+  "rating": 5,
+  "text_review": "It was an amazing movie",
+  "created_at": {
+    "$date": "2025-10-18T12:32:13.945Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b2b9a4415276bfa00e22"
+  },
+  "user_id": {
+    "$oid": "68f37ba7893bfbeee370b79c"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2447"
+  },
+  "rating": 4.8,
+  "text_review": "Mind-bending and visually stunning!",
+  "created_at": {
+    "$date": "2025-10-18T15:31:05.424Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b40ca4415276bfa00e24"
+  },
+  "user_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2451"
+  },
+  "rating": 4.5,
+  "text_review": "Amazing concept, a bit confusing at times.",
+  "created_at": {
+    "$date": "2025-10-18T15:36:44.168Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b460a4415276bfa00e25"
+  },
+  "user_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244f"
+  },
+  "rating": 4.4,
+  "text_review": "Some plot twists felt predictable, but overall enjoyable.",
+  "created_at": {
+    "$date": "2025-10-18T15:38:08.097Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b4bda4415276bfa00e26"
+  },
+  "user_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2455"
+  },
+  "rating": 4.5,
+  "text_review": "Good performances, but the pacing felt a bit uneven.",
+  "created_at": {
+    "$date": "2025-10-18T15:39:41.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b527a4415276bfa00e27"
+  },
+  "user_id": {
+    "$oid": "68f37b90893bfbeee370b79b"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2457"
+  },
+  "rating": 4,
+  "text_review": "Not the scariest horror, but the plot was intriguing.",
+  "created_at": {
+    "$date": "2025-10-18T15:41:27.819Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b7c6a4415276bfa00e2e"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a244a"
+  },
+  "rating": 4.8,
+  "text_review": "Atmosphere and cinematography were top-notch.",
+  "created_at": {
+    "$date": "2025-10-18T15:52:38.282Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b826a4415276bfa00e2f"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2462"
+  },
+  "rating": 4.8,
+  "text_review": "Excellent performances and a gripping story..",
+  "created_at": {
+    "$date": "2025-10-18T15:54:14.618Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b872a4415276bfa00e30"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2467"
+  },
+  "rating": 3,
+  "text_review": "Boring movie",
+  "created_at": {
+    "$date": "2025-10-18T15:55:30.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b8a6a4415276bfa00e31"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a246c"
+  },
+  "rating": 4,
+  "text_review": "An average movie it was",
+  "created_at": {
+    "$date": "2025-10-18T15:56:22.105Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3b8cea4415276bfa00e32"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a246e"
+  },
+  "rating": 4.6,
+  "text_review": "Chilling and intense! Kept me on edge the whole time.",
+  "created_at": {
+    "$date": "2025-10-18T15:57:02.855Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3baf9a4415276bfa00e38"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2444"
+  },
+  "rating": 4.8,
+  "text_review": "Excellent performances and a gripping story.",
+  "created_at": {
+    "$date": "2025-10-18T16:06:17.475Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3bc24a4415276bfa00e39"
+  },
+  "user_id": {
+    "$oid": "68f37bc9893bfbeee370b79d"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2447"
+  },
+  "rating": 4.8,
+  "text_review": "Excellent performances and a gripping story.",
+  "created_at": {
+    "$date": "2025-10-18T16:11:16.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3bd08a4415276bfa00e3b"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2462"
+  },
+  "rating": 4.9,
+  "text_review": "Chilling and intense! Kept me on edge the whole time.",
+  "created_at": {
+    "$date": "2025-10-18T16:15:04.239Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3bd6da4415276bfa00e3c"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a246f"
+  },
+  "rating": 4.5,
+  "text_review": "Well-directed and visually appealing.",
+  "created_at": {
+    "$date": "2025-10-18T16:16:45.930Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3bdaca4415276bfa00e3d"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2472"
+  },
+  "rating": 4.4,
+  "text_review": "Good performances, but the pacing felt a bit uneven.",
+  "created_at": {
+    "$date": "2025-10-18T16:17:48.756Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3bdeda4415276bfa00e3e"
+  },
+  "user_id": {
+    "$oid": "68f37be4893bfbeee370b79e"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2475"
+  },
+  "rating": 4.3,
+  "text_review": "Some parts were predictable, but still enjoyable overall",
+  "created_at": {
+    "$date": "2025-10-18T16:18:53.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3c2e7a4415276bfa00e43"
+  },
+  "user_id": {
+    "$oid": "68f37bfd893bfbeee370b79f"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2477"
+  },
+  "rating": 2.5,
+  "text_review": "Very boring,wasted my time",
+  "created_at": {
+    "$date": "2025-10-18T16:40:07.358Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f3c345a4415276bfa00e44"
+  },
+  "user_id": {
+    "$oid": "68f37bfd893bfbeee370b79f"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a247f"
+  },
+  "rating": 4.2,
+  "text_review": "Average movie",
+  "created_at": {
+    "$date": "2025-10-18T16:41:41.441Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f664142d446de03c7f0af2"
+  },
+  "user_id": {
+    "$oid": "68f37bfd893bfbeee370b79f"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a2467"
+  },
+  "rating": 4.5,
+  "text_review": "It was just okay",
+  "created_at": {
+    "$date": "2025-10-20T16:32:20.363Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f6642d2d446de03c7f0af3"
+  },
+  "user_id": {
+    "$oid": "68f37bfd893bfbeee370b79f"
+  },
+  "movie_id": {
+    "$oid": "68f25b136fb4862d984a247e"
+  },
+  "rating": 4.5,
+  "text_review": "It was just okay",
+  "created_at": {
+    "$date": "2025-10-20T16:32:45.334Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-20T16:41:04.763Z"
+  }
+}]
